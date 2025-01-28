@@ -1,0 +1,31 @@
+.DisplayArticles {
+	font-size: 12px
+}
+.DisplayArticles ul {
+	list-style: none;
+	padding: 0;
+}
+.DisplayArticles h2 {
+	margin: 0 0 10px 0;
+	font-size: 1.1em;
+}
+.DisplayArticles p {
+	margin: 0 20px 0;
+}
+.DisplayArticles ul li {
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.DisplayArticles ul li div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.DisplayArticles ul li h2 {
+	margin: 5px;;
+}
+
+.DisplayArticles .ArticleContent {
+	display: block;
+}

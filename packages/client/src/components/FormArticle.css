@@ -1,0 +1,32 @@
+
+.FormArticle {
+	position: relative;
+	@media (max-width: 1250px) {
+		width: 80%;
+		max-width: 900px;
+		margin: 10px auto;
+		background-color: beige;
+		padding: 10px;
+	}
+}
+
+.FormArticle label {
+	margin-bottom: 20px;
+}
+
+.FormArticle textarea {
+	margin-bottom: 50px;
+}
+
+.FormArticle .btn {
+	border: none;;
+	padding: 4px 5px;
+	background-color: darkblue;
+	color: white;
+}
+
+ .FormArticle .btn-generate {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+ }
