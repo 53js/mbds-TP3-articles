@@ -1,0 +1,14 @@
+{
+  "name": "tp3-articles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+	"start:api": "yarn workspace api start",
+	"start:client": "yarn workspace client start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
